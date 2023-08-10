@@ -12,3 +12,5 @@ A C program that prints exactly "Programming is like building a multilingual puz
 A c program that prints out a string followed by newline
 ## 6-size.c
 A C program that prints the size of various types on the computer it is compiled and run on.
+## 100-intel (gcc -S -masm=intel file)
+A script that generates the assembly code (Intel syntax) of a C code and save it in an output file
