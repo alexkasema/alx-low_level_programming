@@ -1,4 +1,6 @@
-## 0-preprocessor 
+## 0-preprocessor (gcc -E file -o file)
 A script that runs a C file through the preprocessor and save the result into another file.
-## 1-compiler
+## 1-compiler (gcc -c file)
 A script that compiles a c file but does not link
+## 2-assembler (gcc -S file)
+A script that generates the assembly code of a C code and save it in an output file
