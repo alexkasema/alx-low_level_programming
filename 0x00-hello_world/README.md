@@ -10,3 +10,5 @@ A script that compiles a C file and creates an executable
 A C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line
 ## 5-printf.c (use printf function)
 A c program that prints out a string followed by newline
+## 6-size.c
+A C program that prints the size of various types on the computer it is compiled and run on.
