@@ -4,3 +4,5 @@ A script that runs a C file through the preprocessor and save the result into an
 A script that compiles a c file but does not link
 ## 2-assembler (gcc -S file)
 A script that generates the assembly code of a C code and save it in an output file
+## 3-name (gcc file -o name)
+A script that compiles a C file and creates an executable
