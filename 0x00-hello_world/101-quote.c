@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
+#include <string.h>
 
 /**
  *main- Print out a string followed by a new line to the stder
