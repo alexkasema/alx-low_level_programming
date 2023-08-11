@@ -10,3 +10,5 @@ A C program that prints the alphabet in lowercase, and then in uppercase, follow
 A C program that prints the alphabet in lowercase, followed by a new line. Except letters 'q' and 'e'
 ## 5-print_numbers.c
 A C program that prints all single digit numbers of base 10 starting from 0, followed by a new line
+## 6-print_numberz.c
+A C program that prints all single digit numbers of base 10 starting from 0, followed by a new line(Dont use char)
