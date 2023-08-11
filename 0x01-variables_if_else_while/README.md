@@ -6,3 +6,5 @@ A c program that takes in a random number and checks if its last digit meets a s
 A C program that prints the alphabets in lowercase, followed by a new line
 ## 3-print_alphabets.c
 A C program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+## 4-print_alphabt.c
+A C program that prints the alphabet in lowercase, followed by a new line. Except letters 'q' and 'e'
