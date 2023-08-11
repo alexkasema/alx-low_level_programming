@@ -20,3 +20,5 @@ A C program that prints all the numbers of base 16 in lowercase, followed by a n
 A C program that prints all possible combinations of single-digit numbers.
 ## 100-print_comb3.c
 A C program that prints all possible different combinations of two digits.
+## 101-print_comb4.c
+A C program that prints all possible different combinations of three digits.
