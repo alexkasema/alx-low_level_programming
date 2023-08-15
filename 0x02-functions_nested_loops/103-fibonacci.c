@@ -15,8 +15,6 @@ int main(void)
 
 	fib[1] = 2;
 
-	printf("%ld, %ld, ", fib[0], fib[1]);
-
 	for (i = 2; i < 50; i++)
 	{
 		fib[i] = fib[i - 1] + fib[i - 2];
