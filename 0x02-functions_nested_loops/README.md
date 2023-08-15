@@ -6,3 +6,5 @@ A C function that prints the alphabet, in lowercase, followed by a new line.
 A function that prints alphabet 10 times.
 ## 3-islower.c
 A function that checks for lowercase character.
+## 4-isalpha.c
+A function that checks for alphabetic character.
