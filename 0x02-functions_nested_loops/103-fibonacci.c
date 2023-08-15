@@ -8,7 +8,7 @@
 int main(void)
 {
 	int i;
-	int sum = 2;
+	long int sum = 2;
 	long int fib[50];
 
 	fib[0] = 1;
