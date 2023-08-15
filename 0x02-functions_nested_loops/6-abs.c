@@ -11,6 +11,6 @@
  */
 int _abs(int n)
 {
-	absolut = abs(n);
+	int absolut = abs(n);
 	return (absolut);
 }
