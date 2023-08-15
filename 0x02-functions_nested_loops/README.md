@@ -26,3 +26,5 @@ A function that prints all natural numbers from n to 98, followed by a new line.
 A program that adds the multiples of 3 and 5 in a given range
 ## 102-fibonacci.c
 A program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+## 103-fibonacci.c
+A program that adds the sum of fibonacci nums divisible by 2
