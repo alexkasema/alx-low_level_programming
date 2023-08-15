@@ -13,7 +13,7 @@ int print_last_digit(int n)
 {
 	int digit, absolute, answer;
 
-	absolute = abs(n);
+	absolute = -1 * (n % 10);
 
 	digit = absolute % 10;
 
