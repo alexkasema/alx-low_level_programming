@@ -8,3 +8,5 @@ A function that prints alphabet 10 times.
 A function that checks for lowercase character.
 ## 4-isalpha.c
 A function that checks for alphabetic character.
+## 5-sign.c
+A function that prints the sign of a number (+,-).
