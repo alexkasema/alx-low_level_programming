@@ -20,3 +20,5 @@ A function that prints a square, followed by a new line.
 The “Fizz-Buzz test” print "Fizz" if divisible by 3, "Buzz" if divisible by 5, "FizzBuzz" if divisible by both
 ## 10-print_triangle.c
 A function that prints a triangle, followed by a new line.
+## 100-prime_factor.c
+A program that prints the largest prime factor of a number.
