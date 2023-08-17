@@ -16,3 +16,5 @@ A function that draws a straight line in the terminal.
 A function that draws a diagonal line on the terminal.
 ## 8-print_square.c
 A function that prints a square, followed by a new line.
+## 9-fizz_buzz.c
+The “Fizz-Buzz test” print "Fizz" if divisible by 3, "Buzz" if divisible by 5, "FizzBuzz" if divisible by both
