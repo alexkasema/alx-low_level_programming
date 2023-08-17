@@ -22,3 +22,5 @@ The “Fizz-Buzz test” print "Fizz" if divisible by 3, "Buzz" if divisible by 
 A function that prints a triangle, followed by a new line.
 ## 100-prime_factor.c
 A program that prints the largest prime factor of a number.
+## 101-print_number.c
+A function that prints an integer.
