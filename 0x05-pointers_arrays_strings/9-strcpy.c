@@ -10,13 +10,17 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	/* Holder = store the content copied so as to return */
-	char *holder = dest;
+	/* l = length of string*/
+	int i, l = 0;
 
-	while (*src)
+	while (*(src + l) != '\0')
+		l++;
+
+	for (i = 0; i < l; i++)
 	{
-		*dest++ = *src++;
+		dest[i] = src[i];
 	}
+	dest[l] = '\0';
 
-	return (holder);
+	return (dest);
 }
