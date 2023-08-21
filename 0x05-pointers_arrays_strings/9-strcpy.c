@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  *_strcpy - A function that copies the string from one pointer
@@ -11,8 +10,13 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	strcpy(dest, src);
-	char *c = dest;
+	/* Holder = store the content copied so as to return */
+	char *holder = dest;
 
-	return (c);
+	while (*src)
+	{
+		*dest++ = *src++;
+	}
+
+	return (holder);
 }
