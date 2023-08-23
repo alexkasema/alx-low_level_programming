@@ -4,3 +4,5 @@ A function that concatenates two strings (strcat).
 A function that concatenates two strings (strncat).
 ## 2-strncpy.c
 A function that copies a string.
+## 3-strcmp.c
+A function that compares two strings.
