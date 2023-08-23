@@ -20,7 +20,6 @@ char *_strncpy(char *dest, char *src, int n)
 		src++;
 	}
 
-	src_len++;
 
 	if (n > src_len)
 		n = src_len;
