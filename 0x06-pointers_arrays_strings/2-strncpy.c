@@ -19,7 +19,7 @@ char *_strncpy(char *dest, char *src, int n)
 		src_len++;
 		src++;
 	}
-
+	src_len++;
 
 	if (n > src_len)
 		n = src_len;
@@ -27,9 +27,11 @@ char *_strncpy(char *dest, char *src, int n)
 	src = original;
 
 	for (i = 0; i < n; i++)
+	{
 		*dest++ = *src++;
+		*dest = '\0';
+	}
 
-	*dest = '\0';
 
 	return (res);
 }
