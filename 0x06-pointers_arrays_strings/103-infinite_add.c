@@ -40,7 +40,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	len2 = _strlen(n2);
 
 	if (len1 > len2)
-		largets = len1;
+		largest = len1;
 	else
 		largest = len2;
 
