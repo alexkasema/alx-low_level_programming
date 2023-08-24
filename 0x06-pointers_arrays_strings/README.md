@@ -20,3 +20,5 @@ A function that encodes a string using rot13.
 A function that prints an integer.
 ## 103-infinite_add.c
 A function that adds two numbers.
+## 104-print_buffer.c
+A function that prints a buffer.
