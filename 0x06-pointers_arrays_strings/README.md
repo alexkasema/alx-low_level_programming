@@ -18,3 +18,5 @@ A function that encodes a string into 1337 (leet).
 A function that encodes a string using rot13.
 ## 101-print_number.c
 A function that prints an integer.
+## 103-infinite_add.c
+A function that adds two numbers.
