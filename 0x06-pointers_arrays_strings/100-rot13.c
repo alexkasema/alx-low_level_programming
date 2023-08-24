@@ -9,21 +9,22 @@
 
 char *rot13(char *s)
 {
-	int i = 0;
+	int i, j;
+	/*var e = encryption*/
+	char l[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char e[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
-	while (s[i] != '\0')
+	for (i = o; s[i] != '\0'; i++)
 	{
-		while ((s[i] >= 'a' && s[i] <= 'z') || (s[i] >= 'A' && s[i] <= 'Z'))
+		for (j = 0; l[j] != '\0'; j++)
 		{
-			if ((s[i] >= 'a' && s[i] <= 'm') || (s[i] >= 'A' && s[i] <= 'M'))
-				s[i] += 13;
-			else
-				s[i] -= 13;
+			if (s[i] == l[j])
+			{
+				s[i] = e[j];
 
-			i++;
+				break;
+			}
 		}
-
-		i++;
 	}
 
 	return (s);
