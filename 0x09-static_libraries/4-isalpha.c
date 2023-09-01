@@ -1,4 +1,3 @@
-#include <ctype.h>
 #include "main.h"
 
 /**
@@ -9,8 +8,16 @@
  */
 int _isalpha(int c)
 {
-	if (isalpha(c) != 0)
-		return (1);
-	else
-		return (0);
+	char i, j;
+	int is_letter = 0;
+
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		for (j = 'A'; j <= 'Z'; j++)
+		{
+			if (c == i || c == j)
+				is_letter = 1;
+		}
+	}
+	return (is_letter);
 }
