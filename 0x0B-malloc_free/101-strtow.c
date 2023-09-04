@@ -12,7 +12,7 @@ int word_count(char *s)
 
 	for (i = 0; s[i]; i++)
 	{
-		if ((s[i] != ' ' && (s[i - 1] == ' ' || i == 0))
+		if (s[i] != ' ' && (s[i - 1] == ' ' || i == 0))
 			count++;
 	}
 	return (count);
