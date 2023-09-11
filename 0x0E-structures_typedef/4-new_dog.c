@@ -1,7 +1,5 @@
 #include "dog.h"
 
-int _strlen(char *);
-void _strcpy(char *, char *);
 /**
  *new_dog - A function that creates a new dog
  *@name: Name of Dog
