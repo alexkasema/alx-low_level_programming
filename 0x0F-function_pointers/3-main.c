@@ -20,7 +20,7 @@ int main(int ac, char **av)
 
 	sign = get_op_func(av[2]);
 
-	if (sign == 0)
+	if (sign == NULL)
 	{
 		printf("Error\n");
 		exit(99);
