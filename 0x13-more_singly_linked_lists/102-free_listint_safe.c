@@ -8,7 +8,7 @@
 
 size_t free_listint_safe(listint_t **h)
 {
-	unsigned int i, j, num = 0;
+	size_t i, j, num = 0;
 	listint_t buffer[1024];
 	listint_t *current = *h;
 
