@@ -11,7 +11,7 @@ size_t print_listint_safe(const listint_t *head)
 	unsigned int i, num = 0;
 	const listint_t *array[1024];
 
-	while (head != NULL num < 1024)
+	while (head != NULL && num < 1024)
 	{
 		for (i = 0; i < num; i++)
 		{
