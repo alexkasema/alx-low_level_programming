@@ -9,7 +9,7 @@
 size_t free_listint_safe(listint_t **h)
 {
 	size_t i, j, num = 0;
-	listint_t buffer[1024];
+	listint_t *buffer[1024];
 	listint_t *current = *h;
 
 	while (current != NULL && num < 1024)
