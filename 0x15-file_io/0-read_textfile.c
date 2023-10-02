@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * read_textfile - A function that reads a text file and prints it
@@ -32,7 +32,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	free(buffer);
 
-	if (fd == -1 | no_bytes_r == -1 | no_bytes_w == -1)
+	if ((fd == -1) | (no_bytes_r == -1) | (no_bytes_w == -1))
 		return (0);
 
 	close(fd);
