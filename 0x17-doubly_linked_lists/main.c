@@ -11,6 +11,8 @@ int main(void)
 	add_dnodeint_end(&head, 2);
 	add_dnodeint_end(&head, 3);
 	add_dnodeint_end(&head, 4);
+	add_dnodeint_end(&head, 98);
+	insert_dnodeint_at_index(&head, 3, 4096);
 	print_dlistint(head);
 
 	node = get_dnodeint_at_index(head, 3);
