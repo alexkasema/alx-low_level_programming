@@ -4,6 +4,7 @@ int main(void)
 {
 	dlistint_t *head;
 	dlistint_t *node;
+	int sum;
 	head = NULL;
 
 	add_dnodeint_end(&head, 1);
@@ -14,6 +15,9 @@ int main(void)
 
 	node = get_dnodeint_at_index(head, 3);
 	printf("%d\n", node->n);
+
+	sum = sum_dlistint(head);
+	printf("sum = %d\n", sum);
 
 	free_dlistint(head);
 
