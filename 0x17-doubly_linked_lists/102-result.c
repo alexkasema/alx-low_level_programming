@@ -38,6 +38,7 @@ int main(void)
 int is_palindrome(int num)
 {
 	int n = num, rev = 0;
+
 	while (n)
 	{
 		rev = rev * 10 + n % 10;
