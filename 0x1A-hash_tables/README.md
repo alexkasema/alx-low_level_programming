@@ -11,3 +11,5 @@ A function that adds an element to the hash table.
 A function that retrieves a value associated with a key.
 # 5-hash_table_print.c
 A function that prints a hash table.
+# 6-hash_table_delete.c
+A function that deletes a hash table.
