@@ -40,6 +40,10 @@ hash_table_t *hash_table_create(unsigned long int size);
 
 /*Adds an element to the hash table */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value);
+/* Search for an element using its key*/
+char *hash_table_get(const hash_table_t *ht, const char *key);
+
+
 
 unsigned long int hash_djb2(const unsigned char *str);
 unsigned long int key_index(const unsigned char *key, unsigned long int size);
