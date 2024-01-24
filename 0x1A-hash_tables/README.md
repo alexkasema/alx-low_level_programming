@@ -13,3 +13,5 @@ A function that retrieves a value associated with a key.
 A function that prints a hash table.
 # 6-hash_table_delete.c
 A function that deletes a hash table.
+# 100-sorted_hash_table.c
+(Advanced) sorted hash tables
