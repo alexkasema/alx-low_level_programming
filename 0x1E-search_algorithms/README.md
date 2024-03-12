@@ -6,3 +6,5 @@ Search algorithms can be classified based on their mechanism of searching into t
 * Hashing directly maps keys to records based on a hash function.
 ## 0-linear.c
 A  function that searches for a value in an array of integers using the Linear search algorithm.
+## 1-binary.c
+A function that searches for a value in a sorted array of integers using the Binary search algorithm.
