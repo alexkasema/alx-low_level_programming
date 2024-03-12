@@ -18,3 +18,5 @@ What is the time complexity (worst case) of a binary search in an array of size 
 What is the space complexity (worst case) of a binary search in an array of size n?
 ## 100-jump.c
 A function that searches for a value in a sorted array of integers using the Jump search algorithm.
+## 101-O   O(sqrt(n))
+What is the time complexity (average case) of a jump search in an array of size n, using step = sqrt(n)?
