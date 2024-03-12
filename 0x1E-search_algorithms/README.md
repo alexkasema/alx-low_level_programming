@@ -8,5 +8,7 @@ Search algorithms can be classified based on their mechanism of searching into t
 A  function that searches for a value in an array of integers using the Linear search algorithm.
 ## 1-binary.c
 A function that searches for a value in a sorted array of integers using the Binary search algorithm.
-## 2-O ------> O(n)
+## 2-O     O(n)
 What is the time complexity (worst case) of a linear search in an array of size n?
+## 3-O     O(1)
+What is the space complexity (worst case) of an iterative linear search algorithm in an array of size n?
