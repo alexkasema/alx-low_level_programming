@@ -12,3 +12,5 @@ A function that searches for a value in a sorted array of integers using the Bin
 What is the time complexity (worst case) of a linear search in an array of size n?
 ## 3-O     O(1)
 What is the space complexity (worst case) of an iterative linear search algorithm in an array of size n?
+## 4-O     O(log(n))
+What is the time complexity (worst case) of a binary search in an array of size n?
